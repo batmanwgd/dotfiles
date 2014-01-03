@@ -1,0 +1,5 @@
+[user]
+	email = andrewroth1991@gmail.com
+	name = Andrew Roth
+[commit]
+	template = /home/andrew-roth/.gitmessage
