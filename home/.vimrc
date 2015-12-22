@@ -2,9 +2,9 @@
 filetype plugin indent on
 syntax on
 
-" Set tabs to 2 spaces and turn on smart indenting
-set tabstop=2
-set shiftwidth=2
+" Set tabs to 4 spaces and turn on smart indenting
+set tabstop=4
+set shiftwidth=4
 set expandtab
 set smarttab
 set smartindent
