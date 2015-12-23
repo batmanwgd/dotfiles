@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
-for file in home/.*; do 
-    if [[ $file != 'home/.' && $file != 'home/..' ]]; then
-        cp $file ~;
-    fi
+GLOBIGNORE=".:.."
+shopt -s dotglob
+
+for file in home/*; do 
+    cp $file ~;
 done
