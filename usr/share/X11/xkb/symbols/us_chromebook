@@ -1,0 +1,11 @@
+default  partial alphanumeric_keys modifier_keys
+xkb_symbols "basic" {
+    include "us(altgr-intl)"
+    name[Group1]= "English (US - Chromebook)";
+
+    key <BKSP> {    [ BackSpace, BackSpace, Delete, Delete ]    };
+    key   <UP> {    [ Up, Up, Prior, Prior                 ]    };
+    key <LEFT> {    [ Left, Left, Home, Home               ]    };
+    key <DOWN> {    [ Down, Down, Next, Next               ]    };
+    key <RGHT> {    [ Right, Right, End, End               ]    };
+};

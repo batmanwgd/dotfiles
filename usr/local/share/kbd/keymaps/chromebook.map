@@ -1,0 +1,5 @@
+altgr keycode  14 = Remove
+altgr keycode 103 = Prior
+altgr keycode 105 = Find
+altgr keycode 106 = Select
+altgr keycode 108 = Next
