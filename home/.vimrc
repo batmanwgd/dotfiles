@@ -1,3 +1,5 @@
+set ruler
+
 " Syntax Highlighting
 filetype plugin indent on
 syntax on
@@ -15,6 +17,7 @@ set hlsearch
 
 " Put a line at column 80
 set colorcolumn=80
+highlight ColorColumn ctermbg=7
 
 " Latex configuration
 set grepprg=grep\ -nH\ $*
