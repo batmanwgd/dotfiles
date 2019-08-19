@@ -1,5 +1,7 @@
 [user]
 	email = andrewroth1991@gmail.com
 	name = Andrew Roth
-[commit]
-	template = /home/andrew-roth/.gitmessage
+[rerere]
+	enabled = true
+[color "diff"]
+    whitespace = red reverse
